@@ -1,0 +1,21 @@
+my:
+  greeting: Hello Paulson
+  list:
+      values: Joe, Paul, Eva, Paulson
+
+server:
+    port: 8091
+
+pj:
+  dbConn:
+     connectionString: http://pjt.com
+     userName: foo
+     password: pass
+  appEnv: Dev
+  teamHead: Paulson
+
+management.endpoints.web.exposure.include: "*"
+
+spring.cloud.config.uri: http://localhost:8888
+
+spring.application.name: app-values
